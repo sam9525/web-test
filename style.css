@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    position: relative;
+}
+
+html {
+    background-image: url('./images/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+html,body{
+    font-family:  '微軟正黑體';
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: block;
+    margin: 70px 247px 45px 245px;
+    background-image: url('./images/bg2.png');
+    background-size: cover;
+}
+.wrapper:before{
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 75%;
+}
+.logo{
+    width: 125px;
+    height: 82px;
+    position: absolute;
+    top: 6.5%;
+    left: 31.5%;
+    background: url('./images/logo.png');
+    background-size: cover;
+    z-index: 5;
+
+}
+.title {
+    position: absolute;
+    top: 7.5%;
+    left: 46%;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 8.35px;
+    text-align: center;
+    color: #333;
+
+}
+.sub_title{
+    position: absolute;
+    top: 12%;
+    left: 49%;
+    padding-top: 15px;
+    font-size: 30.1px;
+    line-height: 0.81;
+    text-align: center;
+    color: #333;
+}
+.image1{
+    position: absolute;
+    top: 43%;
+    left: 4.5%;
+
+    width: 170px;
+    height: 170px;
+    background-image: url('./images/image1.png');
+    background-size: cover;
+}
+.image2{
+    position: absolute;
+    top: 40.5%;
+    left: 25.5%;
+    width: 770px;
+    height: 435px;
+    background-image: url('./images/image2.png');
+    background-size: cover;
+}
+.pl{
+    position: absolute;
+    top: 87.5%;
+    left: 40%;
+    width: 370px;
+    height: 90px;
+    background-image: url('./images/pl.png');
+    background-size: cover;
+}
+.web_bg{
+    position: absolute;
+    top: 42%;
+    left: 85%;
+    width: 260px;
+    height: 340px;
+    background-image: url('./images/webbg.png');
+    background-size: cover;
+}
+.web{
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    width: 50px;
+    height: 50px;
+    background-image: url('./images/web.png');
+    background-size: cover;
+}
+.webs{
+    z-index: 5;
+    background-size: cover;
+}
+.txt{
+    width: 300px;
+    font-size: 13.4px;
+    line-height: 1.59;
+    text-align: left;
+    color: #333;
+    padding-top: 20px;
+}
+.email{
+    position: absolute;
+    top: 22%;
+    left: 13%;
+    width: 50px;
+    height: 20px;
+    background-image: url('./images/email.png');
+}
+.tel{
+    position: absolute;
+    top: 37%;
+    left: 13%;
+    width: 50px;
+    height: 20px;
+    background-image: url('./images/tel.png');
+}
+.fax{
+    position: absolute;
+    top: 52%;
+    left: 13%;
+    width: 50px;
+    height: 20px;
+    background-image: url('./images/fax.png');
+}
+.add{
+    position: absolute;
+    top: 67%;
+    left: 13%;
+    width: 50px;
+    height: 20px;
+    background-image: url('./images/add.png');
+}
